@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>File System API Example</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/readfile.js"></script>
+    <script type="text/javascript" src="js/writefile.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img src="img/logo.png">
+        <h1> FILE SYSTEM </h1>
+    </div>
+
+    <div class="wrapper">
+        <h2> Write </h2>
+        <label>Title:</label>
+        <input type="text" id="title">
+        <label>Content:</label>
+        <textarea id="content"></textarea>
+        <button id="btn-save">Write to JSON File</button>
+    </div>
+
+    <div class="wrapper">
+        <h2> Read </h2>
+        <input type="file" id="fileInput" />
+        <button onclick="readFile()">Read from Selected File</button>
+        <div id="result"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.app {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    width: calc(100% - 24px);
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}

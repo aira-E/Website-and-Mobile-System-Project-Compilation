@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Phonebook App</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="app">
+        <h1>Phonebook App</h1>
+        <div>
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="phone" placeholder="Phone">
+            <button onclick="addContact()">Add Contact</button>
+        </div>
+        <div>
+            <h2>Contacts</h2>
+            <ul id="contactList"></ul>
+        </div>
+        <button onclick="saveContacts()">Save Contacts</button>
+    </div>
+</body>
+</html>
