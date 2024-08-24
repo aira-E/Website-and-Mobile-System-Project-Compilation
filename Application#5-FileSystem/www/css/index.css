@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 40px;
+    margin: 20px;
     text-align: center;
    }
 
@@ -25,7 +25,7 @@ button, #fileInput {
 }
 
 img{
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 
